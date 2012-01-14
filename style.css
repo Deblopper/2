@@ -13,12 +13,28 @@
 ================================ */
 
 /* 0. Reset */
+* { box-sizing: border-box; }
+a { text-decoration: none; }
+h1 { font-weight: normal; }
+body { font-size: 1em; }
 
 /* 1. Imports */
+@font-face {
+	font-weight: 100;
+	font-style: normal;
+	font-family: Raleway;
+	src: url('http://themes.googleusercontent.com/static/fonts/raleway/v5/b1OWH1QXUjVxHio22EJrRQ.woff') format('woff');
+}
 
 /* 2. Animation */
 
 /* 3. Font and BG */
+h1#name {
+	color: #69C;
+	font-size: 400%;
+	font-family: Raleway;
+	font-variant: small-caps;
+}
 
 /* 4. Box Model Size */
 
