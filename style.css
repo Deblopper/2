@@ -58,6 +58,19 @@ header #punchline {
 	letter-spacing: 2px;
 	font-family: Raleway;
 }
+section#content aside .portal {
+	color: #666;
+}
+section#content aside .portal:hover {
+	color: #333;
+}
+section#content aside .portal a {
+	color: #617788;
+	font-size: 0.9em;
+}
+section#content aside .portal a:hover {
+	background: #f8f8f8;
+}
 
 /* 4. Box Model Size */
 header { margin: 8em 0 2em; }
@@ -80,14 +93,28 @@ section#content aside {
 	margin-left: 2em;
 }
 section#content aside .portal {
-	height: 3em;
 	margin: 1em auto;
+}
+section#content aside .portal a {
+	margin: 0.5em -1em;
+	padding: 0.5em 1em;
+	border-radius: 4px;
+	border: 1px solid transparent;
+}
+section#content aside .portal a:hover {
+	border-color: #c0c7cf;
 }
 
 /* 5. Position/Layout */
 section#content > * {
 	vertical-align: top;
 	display: inline-block;
+}
+section#content aside .portal {
+	display: block;
+}
+section#content aside .portal a {
+	display: block;
 }
 
 /* 6. Miscellaneous */
