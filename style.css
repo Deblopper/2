@@ -58,6 +58,18 @@ header #punchline {
 	letter-spacing: 2px;
 	font-family: Raleway;
 }
+nav {
+	text-align: center;
+}
+nav a {
+	color: #999;
+	line-height: 3em;
+}
+nav a:hover, nav a:focus {
+	color: #666;
+	outline: none;
+	text-shadow: 0 0 1px #fff, 0 0 20px #333;
+}
 section#content aside .portal {
 	color: #666;
 }
@@ -76,9 +88,11 @@ section#content aside .portal a:hover {
 header { margin: 8em 0 2em; }
 header > * { margin: 0; }
 nav {
-	height: 3em;
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
+}
+nav a {
+	margin: auto 24px;
 }
 section {
 	width: 60em;
