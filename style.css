@@ -82,7 +82,7 @@ section#content aside .portal:hover {
 }
 section#content aside .portal a {
 	color: #617788;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 section#content aside .portal a:hover {
 	background: #f8f8f8;
@@ -114,13 +114,15 @@ section#content aside .portal {
 	margin: 1em auto;
 }
 section#content aside .portal a {
-	margin: 0.5em -1em;
-	padding: 0.5em 1em;
+	padding: 0.25em 1em;
 	border-radius: 4px;
 	border: 1px solid transparent;
 }
 section#content aside .portal a:hover {
 	border-color: #c0c7cf;
+}
+section#content aside .portal a:first-child {
+	margin-top: 0.5em;
 }
 
 /* 5. Position/Layout */
