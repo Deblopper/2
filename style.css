@@ -14,7 +14,13 @@
 
 /* 0. Reset */
 * { box-sizing: border-box; }
-a { text-decoration: none; }
+::selection {
+	background-color: #caccce;
+}
+a {
+	outline: none;
+	text-decoration: none;
+}
 h1, h2 { font-weight: normal; }
 html { width: 100%; height: 100% }
 body {
@@ -38,25 +44,24 @@ body {
 	color: #666;
 	text-shadow: 0 0 2px #aaa;
 	background-color: #eaecee;
-	background-image: radial-gradient(center, cover, #f8f8f8 0%, #aaacae 100%);
-	background-image: -ms-radial-gradient(center, cover, #f8f8f8 0%, #aaacae 100%);
-	background-image: -moz-radial-gradient(center, cover, #f8f8f8 0%, #aaacae 100%);
-	background-image: -webkit-radial-gradient(center, cover, #f8f8f8 0%, #aaacae 100%);
+	background-image: radial-gradient(center, cover, #f8f8f8, #babcbe);
+	background-image: -ms-radial-gradient(center, cover, #f8f8f8, #babcbe);
+	background-image: -moz-radial-gradient(center, cover, #f8f8f8, #babcbe);
+	background-image: -webkit-radial-gradient(center, cover, #f8f8f8, #babcbe);
 }
 header > * {
 	text-align: center;
+	font-family: Raleway;
 }
 header #name {
 	color: #617788;
 	font-size: 400%;
-	font-family: Raleway;
 	font-variant: small-caps;
 }
 header #punchline {
 	color: #999;
 	word-spacing: 8px;
 	letter-spacing: 2px;
-	font-family: Raleway;
 }
 nav {
 	text-align: center;
@@ -65,9 +70,8 @@ nav a {
 	color: #999;
 	line-height: 3em;
 }
-nav a:hover, nav a:focus {
+nav a:hover, nav a:active {
 	color: #666;
-	outline: none;
 	text-shadow: 0 0 1px #fff, 0 0 20px #333;
 }
 section#content aside .portal {
