@@ -44,6 +44,7 @@ body {
 	color: #666;
 	text-shadow: 0 0 2px #aaa;
 	background-color: #eaecee;
+	background-attachment: fixed;
 	background-image: radial-gradient(center, cover, #f8f8f8, #babcbe);
 	background-image: -ms-radial-gradient(center, cover, #f8f8f8, #babcbe);
 	background-image: -moz-radial-gradient(center, cover, #f8f8f8, #babcbe);
@@ -125,7 +126,7 @@ section#content aside {
 	margin-left: 2em;
 }
 section#content aside .portal {
-	margin: 1em auto;
+	margin: 1em auto 1.5em;
 }
 section#content aside .portal a {
 	padding: 0.25em 1em;
