@@ -74,6 +74,15 @@ nav a:hover, nav a:active {
 	color: #666;
 	text-shadow: 0 0 1px #fff, 0 0 20px #333;
 }
+section#content article blockquote {
+	font-size: 1.2em;
+	font-family: serif;
+	font-style: italic;
+}
+section#content article blockquote .orator {
+	font-size: 0.8em;
+	text-align: right;
+}
 section#content aside .portal {
 	color: #666;
 }
@@ -105,6 +114,11 @@ section {
 section#content article {
 	width: 40em;
 	margin-right: 2em;
+}
+section#content article blockquote {
+	margin: 1em 2em 2em;
+	padding: 0 2em;
+	border-left: 4px solid #999;
 }
 section#content aside {
 	width: 15em;
