@@ -75,6 +75,13 @@ nav a:hover, nav a:active {
 	color: #666;
 	text-shadow: 0 0 1px #fff, 0 0 20px #333;
 }
+section#content article p {
+	line-height: 1.5em;
+	text-align: justify;
+}
+section#content article p:first-letter {
+	font-size: 1.25em;
+}
 section#content article blockquote {
 	font-size: 1.2em;
 	font-family: serif;
