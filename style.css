@@ -18,6 +18,7 @@
 	background-color: #caccce;
 }
 a {
+	color: #69C;
 	outline: none;
 	text-decoration: none;
 }
@@ -27,6 +28,10 @@ body {
 	margin: 0;
 	font-size: 1em;
 	font-family: Verdana, Geneva, sans-serif;
+}
+dl {
+	margin: 0;
+	padding: 0;
 }
 
 /* 1. Imports */
@@ -91,6 +96,21 @@ section#content article blockquote .orator {
 	font-size: 0.8em;
 	text-align: right;
 }
+section#content article #bragging {
+	color: #ccc;
+	background: #444;
+}
+section#content article #bragging dl {
+	font-size: 0.8em;
+	text-shadow: 0 1px 0 #000;
+}
+section#content article #bragging dl dt {
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+}
+section#content article #bragging dl dd {
+	text-align: justify;
+}
 section#content aside .portal {
 	color: #666;
 }
@@ -128,6 +148,19 @@ section#content article blockquote {
 	padding: 0 2em;
 	border-left: 4px solid #999;
 }
+section#content article #bragging {
+	padding: 4px 0;
+}
+section#content article #bragging dl {
+	border: dashed #ccc;
+	border-width: 1px 0;
+}
+section#content article #bragging dl dt {
+	margin: 1em 1em 0.25em;
+}
+section#content article #bragging dl dd {
+	margin: 0 1em 1em 3em;
+}
 section#content aside {
 	width: 15em;
 	margin-left: 2em;
@@ -161,5 +194,6 @@ section#content aside .portal a {
 
 /* 6. Miscellaneous */
 header { cursor: default; }
+dl dt:before { content: "» "; }
 
 /* 7. Media Query */
