@@ -15,6 +15,7 @@
 /* 0. Reset */
 * { box-sizing: border-box; }
 ::selection {
+	text-shadow: none;
 	background-color: #caccce;
 }
 a {
@@ -85,7 +86,7 @@ section#content article p {
 	text-align: justify;
 }
 section#content article p:first-letter {
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 section#content article blockquote {
 	font-size: 1.2em;
@@ -102,7 +103,6 @@ section#content article #bragging {
 }
 section#content article #bragging dl {
 	font-size: 0.8em;
-	text-shadow: 0 1px 0 #000;
 }
 section#content article #bragging dl dt {
 	font-weight: bold;
@@ -110,6 +110,7 @@ section#content article #bragging dl dt {
 }
 section#content article #bragging dl dd {
 	text-align: justify;
+	text-shadow: 0 1px 0 #000;
 }
 section#content aside .portal {
 	color: #666;
@@ -191,7 +192,8 @@ section#content aside .portal a:first-child {
 	margin-top: 0.5em;
 }
 footer {
-	margin: 2em auto 4em;
+	margin-top: 2em;
+	padding-bottom: 4em;
 }
 footer hr {
 	margin: auto;
