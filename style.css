@@ -118,6 +118,11 @@ section#content aside .portal {
 section#content aside .portal:hover {
 	color: #333;
 }
+section#content aside .portal .description {
+	color: #999;
+	font-size: 0.8em;
+	text-shadow: none;
+}
 section#content aside .portal a {
 	color: #617788;
 	font-size: 0.8em;
@@ -180,6 +185,9 @@ section#content aside {
 section#content aside .portal {
 	margin: 1em auto 1.5em;
 }
+section#content aside .portal .description {
+	margin: 4px 0;
+}
 section#content aside .portal a {
 	padding: 0.25em 1em;
 	border-radius: 4px;
@@ -217,7 +225,9 @@ section#content aside .portal a {
 
 /* 6. Miscellaneous */
 header { cursor: default; }
-dl dt:before { content: "» "; }
+dl dt:before, .portal .description:before {
+	content: "» ";
+}
 footer #copyleft div {
 	display: inline-block;
 	transform: scaleX(-1);
