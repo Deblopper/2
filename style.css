@@ -81,14 +81,14 @@ header #name {
 	font-variant: small-caps;
 }
 header #punchline {
-	color: #999;
+	color: #777;
 	word-spacing: 8px;
 	letter-spacing: 2px;
 }
 nav {
 	text-align: center;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	border: solid #ccc;
+	border-width: 1px 0;
 }
 nav a {
 	color: #999;
@@ -96,31 +96,27 @@ nav a {
 	margin: auto 24px;
 }
 nav a:hover, nav a:active {
-	color: #666;
+	color: #678;
 	text-shadow: 0 0 1px #fff, 0 0 20px #333;
 }
 section#content {
-	width: 60em;
-	margin: 2em auto;
+	width: 45em;
+	margin: 4em auto;
 }
-#content article {
-	width: 40em;
-	margin-right: 2em;
-}
-#content p {
-	line-height: 1.5em;
-	text-align: justify;
-}
-#content p:first-letter {
-	font-size: 1.5em;
-}
-#content blockquote {
+#intro blockquote {
 	padding: 0 2em;
 	margin: 1em 2em 2em;
 	font-size: 1.2em;
 	font-family: serif;
 	font-style: italic;
 	border-left: 4px solid #999;
+}
+#intro p {
+	line-height: 1.5em;
+	text-align: justify;
+}
+#intro p:first-letter {
+	font-size: 1.5em;
 }
 #orator {
 	font-size: 0.8em;
@@ -146,46 +142,14 @@ section#content {
 	margin: 0 1em 1em 3em;
 	text-shadow: 0 1px 0 #000;
 }
-#content aside {
-	width: 15em;
-	margin-left: 2em;
-}
-#content .portal {
-	color: #666;
-	margin: 1em auto 1.5em;
-}
-#content .portal:hover {
-	color: #333;
-}
-#content .description {
-	color: #999;
-	margin: 4px 0;
-	font-size: 0.8em;
-	text-shadow: none;
-}
-#content .portal a {
-	color: #617788;
-	font-size: 0.8em;
-	padding: 0.25em 1em;
-	border-radius: 4px;
-	border: 1px solid transparent;
-}
-#content .portal a:hover {
-	background: #f8f8f8;
-	border-color: #c0c7cf;
-}
-#content .portal a:first-child {
-	margin-top: 0.5em;
-}
 footer {
-	margin-top: 2em;
 	padding-bottom: 4em;
 	text-align: center;
 }
 footer hr {
 	color: #ccc;
 	margin: auto;
-	max-width: 60em;
+	max-width: 45em;
 	background: #ccc;
 }
 #copyleft div {
@@ -195,16 +159,6 @@ footer hr {
 }
 
 /* 4. Position/Layout */
-#content > * {
-	vertical-align: top;
-	display: inline-block;
-}
-#content .portal {
-	display: block;
-}
-#content .portal a {
-	display: block;
-}
 
 /* 5. Miscellaneous */
 header { cursor: default; }
