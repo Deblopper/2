@@ -91,7 +91,7 @@ nav {
 	border-width: 1px 0;
 }
 nav a {
-	color: #999;
+	color: #777;
 	line-height: 3em;
 	margin: auto 24px;
 }
@@ -126,6 +126,13 @@ section#content {
 	color: #ccc;
 	padding: 4px 0;
 	background: #444;
+}
+#bragging p {
+	margin: 0;
+	padding: 0.5em 0;
+	text-align: center;
+	text-shadow: 1px 1px 0 #000;
+	border-top: 1px dashed #ccc;
 }
 #bragging dl {
 	font-size: 0.8em;
