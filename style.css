@@ -212,7 +212,8 @@ dl dt:before, .portal .description:before {
 /* 6. Media Query */
 @media screen and (max-width: 960px) {
 	section#content { width: 100%; }
-	#content article, #content aside { width: 100%; display: block; }
-	#content aside { text-align: center; margin: 2em 0 0; }
-	#content .portal { margin: 1em 2em; display: inline-block; vertical-align: top; }
+	#content article { width: 100%; display: block; }
+	#content article p { margin: 1em; }
+	#content aside { width: 100%; margin: 2em 0 0; text-align: center; }
+	#content .portal { margin: 1em; display: inline-block; vertical-align: top; }
 }
