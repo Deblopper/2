@@ -14,8 +14,14 @@
 /* 0. Reset */
 * { box-sizing: border-box; }
 ::selection {
+	color: #ccc;
 	text-shadow: none;
-	background-color: #caccce;
+	background-color: #6a6c6e;
+}
+::-moz-selection {
+	color: #eee;
+	text-shadow: none;
+	background-color: #6a6c6e;
 }
 a {
 	color: #69C;
@@ -50,7 +56,7 @@ dl {
 /* 3. Font, Color & Box */
 body {
 	color: #666;
-	text-shadow: 0 0 2px #aaa;
+	text-shadow: 0 0 1px #aaa;
 	background-color: #eaecee;
 	background-attachment: fixed;
 	background-image: radial-gradient(center, cover, #f8f8f8, #babcbe);
@@ -196,6 +202,13 @@ footer hr {
 }
 
 /* 5. Miscellaneous */
+html {
+	transform: translateZ(0);
+	-o-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+}
 header { cursor: default; }
 dl dt:before, .portal .description:before {
 	content: "» ";
