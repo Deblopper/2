@@ -93,11 +93,12 @@ nav {
 nav a {
 	color: #777;
 	line-height: 3em;
-	margin: auto 24px;
+	padding: 16px 24px;
 }
 nav a:hover, nav a:active {
-	color: #678;
-	text-shadow: 0 0 1px #fff, 0 0 20px #333;
+	color: #eee;
+	border-radius: 2px;
+	background-color: #678;
 }
 section#content {
 	width: 45em;
